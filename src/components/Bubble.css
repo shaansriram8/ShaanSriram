@@ -1,0 +1,22 @@
+.bubble {
+    display: inline-block; /* Allows the bubble to fit its content */
+    max-width: 200px; /* Sets a maximum width */
+    padding: 3px 13px; /* Padding inside the bubble */
+    margin: 10px; /* Space around the bubble */
+    border-radius: 25px; /* Rounded corners for bubble effect */
+    background: rgba(162, 41, 173, 0.602); /* Background color */
+    color: rgb(228, 136, 236); /* Text color */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Default shadow */
+    position: relative; /* Allows the addition of tails */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for hover effects */
+  }
+  
+  /* Hover effect for the bubble */
+  .bubble:hover {
+    transform: scale(1.1); /* Slightly enlarge the bubble */
+    box-shadow: 0px 8px 16px rgba(162, 41, 173, 0.5); /* Highlighted shadow */
+  }
+  
